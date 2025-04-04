@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask"
+	"github.com/cneill/utask"
 )
 
 // accepted input types

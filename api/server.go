@@ -20,12 +20,12 @@ import (
 	"github.com/wI2L/fizz"
 	"github.com/wI2L/fizz/openapi"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/api/handler"
-	"github.com/ovh/utask/db"
-	"github.com/ovh/utask/models/resolution"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/pkg/auth"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/api/handler"
+	"github.com/cneill/utask/db"
+	"github.com/cneill/utask/models/resolution"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/pkg/auth"
 )
 
 type PluginRoute struct {

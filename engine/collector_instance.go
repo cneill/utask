@@ -7,10 +7,10 @@ import (
 
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/models/resolution"
-	"github.com/ovh/utask/models/runnerinstance"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/models/resolution"
+	"github.com/cneill/utask/models/runnerinstance"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/semaphore"
 )

@@ -1,8 +1,8 @@
 package functionrunner
 
 import (
-	"github.com/ovh/utask/engine/functions"
-	"github.com/ovh/utask/engine/step"
+	"github.com/cneill/utask/engine/functions"
+	"github.com/cneill/utask/engine/step"
 )
 
 // Init registers all the functions loaded as step.Runners.

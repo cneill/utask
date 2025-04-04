@@ -5,9 +5,9 @@ import (
 
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/db/sqlgenerator"
-	"github.com/ovh/utask/pkg/now"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/db/sqlgenerator"
+	"github.com/cneill/utask/pkg/now"
 )
 
 // HeartbeatInterval is the duration between an instance's heartbeats

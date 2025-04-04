@@ -4,11 +4,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/pkg/batch"
-	"github.com/ovh/utask/pkg/metadata"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/pkg/batch"
+	"github.com/cneill/utask/pkg/metadata"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 type createBatchIn struct {

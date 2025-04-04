@@ -6,9 +6,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/notify"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/notify"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
 )
 
 // the notify plugin broadcasts a message over all registered notification senders

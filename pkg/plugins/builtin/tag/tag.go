@@ -1,8 +1,8 @@
 package plugintag
 
 import (
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // The tag plugin allow to update the tags of a task.

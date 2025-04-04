@@ -5,7 +5,7 @@ import (
 	"compress/gzip"
 	"io"
 
-	"github.com/ovh/utask/pkg/compress"
+	"github.com/cneill/utask/pkg/compress"
 )
 
 const AlgorithmName = "gzip"

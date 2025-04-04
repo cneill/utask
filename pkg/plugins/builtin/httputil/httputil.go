@@ -13,8 +13,8 @@ import (
 	"github.com/juju/errors"
 	"golang.org/x/net/http2"
 
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // UnmarshalFunc is a type of function capable of taking the body of an http response and

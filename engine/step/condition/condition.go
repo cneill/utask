@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask/engine/values"
+	"github.com/cneill/utask/engine/values"
 )
 
 // accepted condition operators

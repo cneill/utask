@@ -6,11 +6,11 @@ import (
 	"github.com/juju/errors"
 	"github.com/ovh/configstore"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/models/resolution"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/models/resolution"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // IdentityProviderCtxKey is the key used to store/retrieve identity data from Context

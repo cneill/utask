@@ -2,7 +2,7 @@ package task
 
 import (
 	"github.com/loopfz/gadgeto/zesty"
-	"github.com/ovh/utask/db/pgjuju"
+	"github.com/cneill/utask/db/pgjuju"
 )
 
 func DeleteAllTasks(dbp zesty.DBProvider) error {

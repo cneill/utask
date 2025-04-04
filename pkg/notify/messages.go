@@ -6,12 +6,12 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/engine/step"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/engine/step"
 )
 
 const (
-	// corresponds to github.com/ovh/utask/models/task.StateBlocked
+	// corresponds to github.com/cneill/utask/models/task.StateBlocked
 	stateBlocked = "BLOCKED"
 
 	// corresponds to the path of a task in the Dashboard UI

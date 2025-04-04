@@ -5,8 +5,8 @@ import (
 
 	"github.com/gin-gonic/gin"
 	"github.com/juju/errors"
-	"github.com/ovh/utask/engine/functions"
-	"github.com/ovh/utask/pkg/metadata"
+	"github.com/cneill/utask/engine/functions"
+	"github.com/cneill/utask/pkg/metadata"
 )
 
 type listFunctionsIn struct {

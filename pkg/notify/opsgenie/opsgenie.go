@@ -9,8 +9,8 @@ import (
 	"github.com/opsgenie/opsgenie-go-sdk-v2/alert"
 	"github.com/opsgenie/opsgenie-go-sdk-v2/client"
 
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/pkg/notify"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/pkg/notify"
 )
 
 const (

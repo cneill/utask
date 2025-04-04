@@ -1,21 +1,21 @@
 package builtin
 
 import (
-	"github.com/ovh/utask/engine/step"
-	"github.com/ovh/utask/pkg/plugins"
-	pluginapiovh "github.com/ovh/utask/pkg/plugins/builtin/apiovh"
-	pluginbatch "github.com/ovh/utask/pkg/plugins/builtin/batch"
-	plugincallback "github.com/ovh/utask/pkg/plugins/builtin/callback"
-	pluginecho "github.com/ovh/utask/pkg/plugins/builtin/echo"
-	pluginemail "github.com/ovh/utask/pkg/plugins/builtin/email"
-	pluginhttp "github.com/ovh/utask/pkg/plugins/builtin/http"
-	pluginnotify "github.com/ovh/utask/pkg/plugins/builtin/notify"
-	pluginping "github.com/ovh/utask/pkg/plugins/builtin/ping"
-	pluginscript "github.com/ovh/utask/pkg/plugins/builtin/script"
-	pluginssh "github.com/ovh/utask/pkg/plugins/builtin/ssh"
-	pluginsubtask "github.com/ovh/utask/pkg/plugins/builtin/subtask"
-	plugintag "github.com/ovh/utask/pkg/plugins/builtin/tag"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/engine/step"
+	"github.com/cneill/utask/pkg/plugins"
+	pluginapiovh "github.com/cneill/utask/pkg/plugins/builtin/apiovh"
+	pluginbatch "github.com/cneill/utask/pkg/plugins/builtin/batch"
+	plugincallback "github.com/cneill/utask/pkg/plugins/builtin/callback"
+	pluginecho "github.com/cneill/utask/pkg/plugins/builtin/echo"
+	pluginemail "github.com/cneill/utask/pkg/plugins/builtin/email"
+	pluginhttp "github.com/cneill/utask/pkg/plugins/builtin/http"
+	pluginnotify "github.com/cneill/utask/pkg/plugins/builtin/notify"
+	pluginping "github.com/cneill/utask/pkg/plugins/builtin/ping"
+	pluginscript "github.com/cneill/utask/pkg/plugins/builtin/script"
+	pluginssh "github.com/cneill/utask/pkg/plugins/builtin/ssh"
+	pluginsubtask "github.com/cneill/utask/pkg/plugins/builtin/subtask"
+	plugintag "github.com/cneill/utask/pkg/plugins/builtin/tag"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
 )
 
 // RegisterInit takes all builtin init plugins and registers them

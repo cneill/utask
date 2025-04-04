@@ -7,8 +7,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/constants"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/constants"
 
 	"github.com/juju/errors"
 )

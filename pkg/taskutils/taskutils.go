@@ -7,12 +7,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask/models/resolution"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/auth"
-	"github.com/ovh/utask/pkg/batchutils"
-	"github.com/ovh/utask/pkg/constants"
+	"github.com/cneill/utask/models/resolution"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/auth"
+	"github.com/cneill/utask/pkg/batchutils"
+	"github.com/cneill/utask/pkg/constants"
 )
 
 // CreateTask creates a task with the given inputs, and creates a resolution if autorunnable

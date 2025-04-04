@@ -3,7 +3,7 @@ package notify
 import (
 	log "github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask"
+	"github.com/cneill/utask"
 )
 
 const (

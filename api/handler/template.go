@@ -6,10 +6,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/auth"
-	"github.com/ovh/utask/pkg/metadata"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/auth"
+	"github.com/cneill/utask/pkg/metadata"
 )
 
 type listTemplatesIn struct {

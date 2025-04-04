@@ -9,12 +9,12 @@ import (
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/db/sqlgenerator"
-	"github.com/ovh/utask/engine/input"
-	"github.com/ovh/utask/engine/step"
-	"github.com/ovh/utask/engine/values"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/db/sqlgenerator"
+	"github.com/cneill/utask/engine/input"
+	"github.com/cneill/utask/engine/step"
+	"github.com/cneill/utask/engine/values"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // TaskTemplate holds the formal description for a process

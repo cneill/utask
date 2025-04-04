@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask/engine/values"
+	"github.com/cneill/utask/engine/values"
 )
 
 //go:generate jsonenums -type=CondType --lower --no-stringer

@@ -13,16 +13,16 @@ import (
 	"github.com/lib/pq"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/db/sqlgenerator"
-	"github.com/ovh/utask/engine/input"
-	"github.com/ovh/utask/engine/values"
-	"github.com/ovh/utask/models"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/notify"
-	"github.com/ovh/utask/pkg/now"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/db/sqlgenerator"
+	"github.com/cneill/utask/engine/input"
+	"github.com/cneill/utask/engine/values"
+	"github.com/cneill/utask/models"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/notify"
+	"github.com/cneill/utask/pkg/now"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // possible task states

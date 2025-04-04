@@ -9,7 +9,7 @@ import (
 
 	ping "github.com/go-ping/ping"
 
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
 )
 
 // the ping plugin send ping

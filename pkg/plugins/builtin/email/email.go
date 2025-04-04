@@ -9,7 +9,7 @@ import (
 
 	mail "gopkg.in/mail.v2"
 
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
 )
 
 // the email plugin send email

@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/utils"
 	"sigs.k8s.io/yaml"
 )
 

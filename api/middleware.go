@@ -10,9 +10,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/auth"
-	"github.com/ovh/utask/pkg/metadata"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/auth"
+	"github.com/cneill/utask/pkg/metadata"
 	"github.com/wI2L/fizz"
 )
 

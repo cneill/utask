@@ -4,8 +4,8 @@ import (
 	"github.com/Masterminds/squirrel"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask/db/sqlgenerator"
-	"github.com/ovh/utask/models/task"
+	"github.com/cneill/utask/db/sqlgenerator"
+	"github.com/cneill/utask/models/task"
 )
 
 // FinalStates hold the states in which a task won't ever be run again

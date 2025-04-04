@@ -2,8 +2,8 @@ package pgjuju
 
 import (
 	"github.com/juju/errors"
-	"github.com/ovh/utask/db/dberrors"
-	"github.com/ovh/utask/db/dberrors/pganalyzer"
+	"github.com/cneill/utask/db/dberrors"
+	"github.com/cneill/utask/db/dberrors/pganalyzer"
 )
 
 var interpreter = dberrors.Interpreter{

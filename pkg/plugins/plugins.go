@@ -10,8 +10,8 @@ import (
 	"github.com/ovh/configstore"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask/api"
-	"github.com/ovh/utask/engine/step"
+	"github.com/cneill/utask/api"
+	"github.com/cneill/utask/engine/step"
 )
 
 // TaskPlugin represents the interface for every executor for µtask step actions

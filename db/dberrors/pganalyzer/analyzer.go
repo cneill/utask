@@ -4,7 +4,7 @@ import (
 	"database/sql"
 
 	"github.com/lib/pq"
-	"github.com/ovh/utask/db/dberrors"
+	"github.com/cneill/utask/db/dberrors"
 )
 
 // Analyzer converts a postgresql-specific error

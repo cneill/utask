@@ -3,10 +3,10 @@ package task
 import (
 	"time"
 
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/db/sqlgenerator"
-	"github.com/ovh/utask/pkg/now"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/db/sqlgenerator"
+	"github.com/cneill/utask/pkg/now"
+	"github.com/cneill/utask/pkg/utils"
 
 	"github.com/Masterminds/squirrel"
 	"github.com/gofrs/uuid"

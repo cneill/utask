@@ -10,14 +10,14 @@ import (
 	"github.com/ovh/configstore"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db"
-	"github.com/ovh/utask/engine/input"
-	"github.com/ovh/utask/engine/step"
-	"github.com/ovh/utask/engine/step/executor"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/batchutils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db"
+	"github.com/cneill/utask/engine/input"
+	"github.com/cneill/utask/engine/step"
+	"github.com/cneill/utask/engine/step/executor"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/batchutils"
 )
 
 func TestRunningTasks(t *testing.T) {

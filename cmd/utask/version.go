@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/ovh/utask"
+	"github.com/cneill/utask"
 )
 
 func init() {

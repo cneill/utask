@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"sigs.k8s.io/yaml"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db"
-	"github.com/ovh/utask/engine/step"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/now"
-	"github.com/ovh/utask/pkg/plugins/builtin/echo"
-	"github.com/ovh/utask/pkg/plugins/builtin/script"
-	pluginsubtask "github.com/ovh/utask/pkg/plugins/builtin/subtask"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db"
+	"github.com/cneill/utask/engine/step"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/now"
+	"github.com/cneill/utask/pkg/plugins/builtin/echo"
+	"github.com/cneill/utask/pkg/plugins/builtin/script"
+	pluginsubtask "github.com/cneill/utask/pkg/plugins/builtin/subtask"
 )
 
 func TestMain(m *testing.M) {

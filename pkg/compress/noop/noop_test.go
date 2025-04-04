@@ -3,8 +3,8 @@ package noop_test
 import (
 	"testing"
 
-	"github.com/ovh/utask/pkg/compress/noop"
-	"github.com/ovh/utask/pkg/compress/tests"
+	"github.com/cneill/utask/pkg/compress/noop"
+	"github.com/cneill/utask/pkg/compress/tests"
 )
 
 func TestCompression(t *testing.T) {

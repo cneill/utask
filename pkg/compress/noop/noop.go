@@ -1,6 +1,6 @@
 package noop
 
-import "github.com/ovh/utask/pkg/compress"
+import "github.com/cneill/utask/pkg/compress"
 
 const AlgorithmName = "noop"
 

@@ -12,10 +12,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ovh/utask"
+	"github.com/cneill/utask"
 
-	"github.com/ovh/utask/pkg/plugins/builtin/scriptutil"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/plugins/builtin/scriptutil"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
 )
 
 // the script plugin execute scripts

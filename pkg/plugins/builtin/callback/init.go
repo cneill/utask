@@ -9,10 +9,10 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/loopfz/gadgeto/tonic"
 	"github.com/ovh/configstore"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/api"
-	"github.com/ovh/utask/db"
-	"github.com/ovh/utask/pkg/plugins"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/api"
+	"github.com/cneill/utask/db"
+	"github.com/cneill/utask/pkg/plugins"
 	"github.com/wI2L/fizz"
 )
 

@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask/engine/step/condition"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/engine/step/condition"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // ValidCondition asserts that the definition for a StepCondition is valid

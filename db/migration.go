@@ -8,8 +8,8 @@ import (
 	_ "github.com/lib/pq" // postgresql driver
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/sqlgenerator"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/sqlgenerator"
 )
 
 const (

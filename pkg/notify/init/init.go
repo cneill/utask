@@ -7,11 +7,11 @@ import (
 
 	"github.com/ovh/configstore"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/notify"
-	"github.com/ovh/utask/pkg/notify/opsgenie"
-	"github.com/ovh/utask/pkg/notify/slack"
-	"github.com/ovh/utask/pkg/notify/webhook"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/notify"
+	"github.com/cneill/utask/pkg/notify/opsgenie"
+	"github.com/cneill/utask/pkg/notify/slack"
+	"github.com/cneill/utask/pkg/notify/webhook"
 )
 
 const (

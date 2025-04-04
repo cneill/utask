@@ -10,13 +10,13 @@ import (
 	"github.com/ovh/configstore"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/models"
-	"github.com/ovh/utask/models/resolution"
-	"github.com/ovh/utask/models/runnerinstance"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/now"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/models"
+	"github.com/cneill/utask/models/resolution"
+	"github.com/cneill/utask/models/runnerinstance"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/now"
 )
 
 const (

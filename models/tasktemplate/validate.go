@@ -7,11 +7,11 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/engine/step"
-	"github.com/ovh/utask/engine/values"
-	"github.com/ovh/utask/pkg/jsonschema"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/engine/step"
+	"github.com/cneill/utask/engine/values"
+	"github.com/cneill/utask/pkg/jsonschema"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 const (

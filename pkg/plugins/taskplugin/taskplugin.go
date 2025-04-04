@@ -7,8 +7,8 @@ import (
 	"reflect"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask/pkg/jsonschema"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask/pkg/jsonschema"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // ConfigFunc is a type of function to validate the contents of a configuration payload

@@ -6,9 +6,9 @@ import (
 	"github.com/loopfz/gadgeto/zesty"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/models/resolution"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/models/resolution"
 )
 
 // AutorunCollector launches a process that looks for existing resolutions

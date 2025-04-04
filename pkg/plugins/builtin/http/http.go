@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/plugins/builtin/httputil"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/plugins/builtin/httputil"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/utils"
 	dac "github.com/ybriffa/go-http-digest-auth-client"
 )
 

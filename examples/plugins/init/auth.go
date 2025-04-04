@@ -7,8 +7,8 @@ import (
 	"strings"
 
 	"github.com/juju/errors"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/plugins"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/plugins"
 )
 
 var Plugin = NewSillyAuth()

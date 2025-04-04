@@ -6,9 +6,9 @@ import (
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/taskutils"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/taskutils"
 )
 
 // TaskArgs holds arguments needed to create tasks in a batch

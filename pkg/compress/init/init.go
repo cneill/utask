@@ -1,9 +1,9 @@
 package init
 
 import (
-	"github.com/ovh/utask/pkg/compress"
-	"github.com/ovh/utask/pkg/compress/gzip"
-	"github.com/ovh/utask/pkg/compress/noop"
+	"github.com/cneill/utask/pkg/compress"
+	"github.com/cneill/utask/pkg/compress/gzip"
+	"github.com/cneill/utask/pkg/compress/noop"
 )
 
 // Register registers default compression algorithms.

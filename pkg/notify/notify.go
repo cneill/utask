@@ -1,6 +1,6 @@
 package notify
 
-import "github.com/ovh/utask"
+import "github.com/cneill/utask"
 
 // utask should be able to notify about inner task events through different channels
 // relevant information for the outside world is described by the Message struct

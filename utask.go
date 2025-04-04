@@ -11,8 +11,8 @@ import (
 
 	"github.com/ovh/configstore"
 
-	"github.com/ovh/utask/pkg/compress"
-	"github.com/ovh/utask/pkg/compress/noop"
+	"github.com/cneill/utask/pkg/compress"
+	"github.com/cneill/utask/pkg/compress/noop"
 )
 
 var (

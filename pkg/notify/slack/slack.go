@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ovh/utask/pkg/notify"
+	"github.com/cneill/utask/pkg/notify"
 )
 
 const (

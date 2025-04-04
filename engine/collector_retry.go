@@ -6,9 +6,9 @@ import (
 	"github.com/loopfz/gadgeto/zesty"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/models/resolution"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/models/resolution"
 )
 
 // RetryCollector launches a process that collects all resolutions

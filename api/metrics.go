@@ -12,8 +12,8 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/models/task"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/models/task"
 )
 
 var (

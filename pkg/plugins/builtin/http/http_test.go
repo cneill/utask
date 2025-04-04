@@ -8,7 +8,7 @@ import (
 	"net/http/httputil"
 	"testing"
 
-	httputilutask "github.com/ovh/utask/pkg/plugins/builtin/httputil"
+	httputilutask "github.com/cneill/utask/pkg/plugins/builtin/httputil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

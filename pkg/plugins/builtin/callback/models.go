@@ -9,14 +9,14 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/db/sqlgenerator"
-	"github.com/ovh/utask/models"
-	"github.com/ovh/utask/models/resolution"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/pkg/jsonschema"
-	"github.com/ovh/utask/pkg/now"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/db/sqlgenerator"
+	"github.com/cneill/utask/models"
+	"github.com/cneill/utask/models/resolution"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/pkg/jsonschema"
+	"github.com/cneill/utask/pkg/now"
 )
 
 type callback struct {

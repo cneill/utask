@@ -9,15 +9,15 @@ import (
 	"github.com/juju/errors"
 	"github.com/loopfz/gadgeto/zesty"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/models/tasktemplate"
-	"github.com/ovh/utask/pkg/auth"
-	"github.com/ovh/utask/pkg/constants"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
-	"github.com/ovh/utask/pkg/taskutils"
-	"github.com/ovh/utask/pkg/templateimport"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/models/tasktemplate"
+	"github.com/cneill/utask/pkg/auth"
+	"github.com/cneill/utask/pkg/constants"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/taskutils"
+	"github.com/cneill/utask/pkg/templateimport"
+	"github.com/cneill/utask/pkg/utils"
 )
 
 // the subtask plugin spawns a new µTask task, given a template and inputs

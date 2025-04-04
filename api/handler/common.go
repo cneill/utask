@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/engine/input"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/engine/input"
 )
 
 const (

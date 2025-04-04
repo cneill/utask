@@ -6,10 +6,10 @@ import (
 	"time"
 
 	"github.com/loopfz/gadgeto/zesty"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/db/pgjuju"
-	"github.com/ovh/utask/models/task"
-	"github.com/ovh/utask/pkg/now"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/db/pgjuju"
+	"github.com/cneill/utask/models/task"
+	"github.com/cneill/utask/pkg/now"
 )
 
 const (

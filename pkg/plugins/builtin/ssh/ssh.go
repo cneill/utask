@@ -13,8 +13,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/ovh/utask/pkg/plugins/builtin/scriptutil"
-	"github.com/ovh/utask/pkg/plugins/taskplugin"
+	"github.com/cneill/utask/pkg/plugins/builtin/scriptutil"
+	"github.com/cneill/utask/pkg/plugins/taskplugin"
 )
 
 // connection configuration values

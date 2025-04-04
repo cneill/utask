@@ -12,8 +12,8 @@ import (
 	"github.com/Masterminds/sprig/v3"
 	"github.com/gofrs/uuid"
 	"github.com/juju/errors"
-	"github.com/ovh/utask"
-	"github.com/ovh/utask/pkg/utils"
+	"github.com/cneill/utask"
+	"github.com/cneill/utask/pkg/utils"
 	"github.com/robertkrimen/otto"
 )
 

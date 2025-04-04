@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/loopfz/gadgeto/zesty"
-	"github.com/ovh/utask"
+	"github.com/cneill/utask"
 )
 
 var timeDelta time.Duration

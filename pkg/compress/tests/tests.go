@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ovh/utask/pkg/compress"
+	"github.com/cneill/utask/pkg/compress"
 )
 
 // CompressionTests executes a range of tests to test a `Compression` module.
