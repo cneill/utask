@@ -16,7 +16,7 @@ ifndef VERSION
 endif
 
 LAST_COMMIT		:= $(shell git rev-parse HEAD)
-VERSION_PKG		= github.com/ovh/utask
+VERSION_PKG		= github.com/cneill/utask
 
 DOCKER			= 0
 DOCKER_OPT		=
