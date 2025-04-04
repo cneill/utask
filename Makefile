@@ -26,10 +26,17 @@ define goreleaser
 endef
 
 define build_binary
-	GO111MODULE=on go build -ldflags "-X ${VERSION_PKG}.Commit=${LAST_COMMIT} -X ${VERSION_PKG}.Version=${VERSION}" \
+	GO111MODULE=on go build -trimpath \
+		-ldflags "-X ${VERSION_PKG}.Commit=${LAST_COMMIT} -X ${VERSION_PKG}.Version=${VERSION}" \
 		-o $(1) ${MAIN_LOCATION}/$(1)
 	@[ ${DOCKER} -eq 0 ] || $(call docker_build,$(1))
 endef
+
+# define build_binary
+# 	GO111MODULE=on go build -ldflags "-X ${VERSION_PKG}.Commit=${LAST_COMMIT} -X ${VERSION_PKG}.Version=${VERSION}" \
+# 		-o $(1) ${MAIN_LOCATION}/$(1)
+# 	@[ ${DOCKER} -eq 0 ] || $(call docker_build,$(1))
+# endef
 
 define docker_build
 	docker build ${DOCKER_OPT} -f ${MAIN_LOCATION}/$(1)/Dockerfile .
